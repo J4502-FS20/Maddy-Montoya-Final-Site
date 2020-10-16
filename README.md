@@ -1,2 +1,2 @@
 # Maddy-Montoya-Final-Site
-Maddy Montoya's final projet for J4502
+Maddy Montoya's final project for J4502
