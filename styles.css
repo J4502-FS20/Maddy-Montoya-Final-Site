@@ -1,0 +1,45 @@
+body {
+    background-color: #EDE7D9;
+    text-align: center;
+    margin: auto;
+  }
+
+//applies to all
+  ul {
+      list-style-type: none;
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+      font-size: 18px;
+      padding-left: 0px;
+    }
+
+  h1 {
+    font-family: 'Abril Fatface', sans-serif;
+    font-size: 48px;
+    text-align: center;
+  }
+
+h2 {
+  font-family: 'Abril Fatface', sans-serif;
+  font-size: 26px;
+  text-align: center;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 19px;
+  text-align: center;
+}
+
+#parks {
+  font-family: 'Roboto', sans-serif;
+  font-size: 19px;
+  text-align: left;
+}
+
+#nav {
+  list-style-type: none;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
