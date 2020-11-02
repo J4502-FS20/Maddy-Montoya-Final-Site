@@ -55,6 +55,8 @@ p {
   font-size: 19px;
   display: flex;
   justify-content: space-around;
+  flex-direction: column;
+  flex-direction: row;
 }
 
 img {
