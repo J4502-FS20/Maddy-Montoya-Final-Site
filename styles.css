@@ -60,30 +60,6 @@ p {
   flex-direction: row;
 }
 
-@media only screen and (max-width: 480px) {
-  .nav {
-    margin-left: 10%;
-    margin-right: 10%;
-    font-family: 'Roboto', sans-serif;
-    font-size: 19px;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-  }
-}
-
-@media only screen and (max-width: max-width 1000px) {
-  .nav {
-    margin-left: 10%;
-    margin-right: 10%;
-    font-family: 'Roboto', sans-serif;
-    font-size: 19px;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-  }
-}
-
 img {
   margin: 1%
 }
@@ -100,4 +76,28 @@ a:hover {
     font-weight: bold;
     background-color: #DBAD6A;
     color: #6B8E9E;
+}
+
+@media only screen and (max-width: max-width 1000px) {
+  .nav {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .nav {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
 }
