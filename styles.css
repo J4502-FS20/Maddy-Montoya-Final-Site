@@ -78,6 +78,84 @@ a:hover {
     color: #6B8E9E;
 }
 
+.mapHolder{
+  width: 100%;
+  max-width: 900px;
+  position: relative;
+}
+
+.mapHolder img{
+  width: 100%;
+  max-width: 900px;
+}
+
+.numberedDots {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #EDE7D9;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Abril Fatface';
+  display: block;
+  position: absolute;
+}
+
+#dot1{
+  top: 49.5%;
+  left: 77%;
+}
+
+#dot2{
+  top: 51.4%;
+  left: 21.4%;
+}
+
+#dot3{
+  top: 37.7%;
+  left: 34.6%;
+}
+
+#dot4{
+  top: 44.5%;
+  left: 20%;
+}
+
+#dot5{
+  top: 40.5%;
+  left: 7%;
+}
+
+#dot6{
+  top: 21.5%;
+  left: 27.5%;
+}
+
+#dot7{
+  top: 6.5%;
+  left: 98%;
+}
+
+#dot8{
+  top: 25%;
+  left: 26.5%;
+}
+
+#dot9{
+  top: 2.5%;
+  left: 6.3%;
+}
+
+#dot10{
+  top: 5.3%;
+  left: 22.4%;
+}
+
+.numberedDots span{
+  padding-top: 15%;
+}
+
+
 @media screen and (max-width: max-width 1000px) {
   .nav {
     margin-left: 10%;
