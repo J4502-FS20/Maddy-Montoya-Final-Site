@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Quiz</title>
+  <meta name="description" content="Maddy Montoya's final website quiz.">
+  <meta name="author" content="Maddy Montoya">
+  <meta name="keywords" content="Maddy Montoya, J4502, J7502"/>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="main.js"></script>
+
+</head>
+
+<body>
+
+<h1>Test Your National Park Knowledge</h1>
+<p>Think you're an outdoors extraordinaire? Put your knowledge to the test with this quiz. Select the answer you think is correct, the click the submit button to see how you did.</p>
+<p>---</p>
+
+<form id="quiz" name="quiz">
+  <p>When is the National Parks Service's birthday?</p>
+    <input id="mc" type ="radio" name="question1" value="answer1"> August 25th<br>
+    <input id="mc" type ="radio" name="question1" value="answer2"> January 1st<br>
+    <input id="mc" type ="radio" name="question1" value="answer3"> October 2nd<br>
+
+  <p>Which of these presidents is a founder of the National Parks Service?</p>
+    <input id="mc" type ="radio" name="question2" value="answer4"> Richard Nixon<br>
+    <input id="mc" type ="radio" name="question2" value="answer5"> Theodore Roosevelt<br>
+    <input id="mc" type ="radio" name="question2" value="answer6"> William McKinley<br>
+
+  <p>How many national park sites are in the United States?</p>
+    <input id="mc" type ="radio" name="question3" value="answer7"> 97<br>
+    <input id="mc" type ="radio" name="question3" value="answer8"> 175<br>
+    <input id="mc" type ="radio" name="question3" value="answer9"> 422<br>
+
+<input id="button" type="button" value="Submit" onclick="check();">
+
+<div id="results">
+  <p id="message"></p>
+  <p id="number_correct"></p>
+</div>
+
+</form>
+
+
+</body>
+
+</html>

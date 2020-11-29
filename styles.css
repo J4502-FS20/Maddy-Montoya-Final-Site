@@ -182,3 +182,7 @@ a:hover {
     border: 5px dotted purple;
   }
 }
+
+#results{
+  visibility: hidden;
+}
