@@ -87,6 +87,21 @@ img {
   margin: 1%
 }
 
+.home_photo {
+  width: 400px;
+  height: 300px;
+}
+
+.vertical_photo {
+  width: 300px;
+  height: 400px;
+}
+
+.guide_photo {
+   width:688px;
+   height:338px;
+}
+
 a {
   font-family: 'Roboto', sans-serif;
   text-decoration: none;
@@ -180,21 +195,25 @@ a:hover {
 }
 
 .timeline_item {
-  background: #EEE;
+  background: #6B8E9E;
   border-radius: 40px;
-  width: 90%;
-  max-width: 600px;
   display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1rem;
+  margin-top: 2rem;
 }
 
 .timeline_item span {
   font-family: 'Abril Fatface', sans-serif;
   font-weight: bold;
   font-size: 3rem;
+  text-align: right;
 }
 
 .timeline_item p {
   text-align: left;
+  padding: 0 3%;
 }
 
 #timeline_div {
@@ -202,6 +221,8 @@ a:hover {
   flex-direction: column;
   justify-content: center;
   margin: auto;
+  width: 90%;
+  max-width: 800px;
 }
 
 @media screen and (max-width: max-width 1000px) {
